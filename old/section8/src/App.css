@@ -1,0 +1,77 @@
+.app{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header h2{
+    color: rgb(37, 147, 255);
+}
+
+.editor{
+    display: flex;
+    gap: 10px;
+}
+.editor input{
+    flex: 1;
+    padding: 15px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+}
+.editor button{
+    cursor: pointer;
+    width: 80px;
+    border: none;
+    background-color: rgb(37, 147, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list input[type="text"]{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 15px 0;
+}
+.list input[type="text"]:focus{
+    outline: none;
+    border-bottom: 1px solid rgb(37, 147, 255);
+}
+.todos_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.todoitem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.todoitem input{
+    width: 20px;
+}
+.todoitem .content{
+    flex: 1;
+}
+.todoitem .date{
+    font-size: 14px;
+    color: grey;
+}
+.todoitem button{
+    cursor: pointer;
+    color: grey;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
